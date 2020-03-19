@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .date {
   float: right;
   margin-right: 140px;
@@ -32,6 +33,14 @@
   padding: 90px;
 }
 
+a::before {
+  content: "♥";
+}
+
+a::after {
+  content: "";
+}
+
 a {
   text-decoration: none;
   color: blue;
@@ -42,13 +51,17 @@ a:hover {
 }
 
 .grid {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: auto auto auto;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
 }
+
 .grid__header {
   font-size: 100px;
   text-align: center;
 }
+
 .grid__paragraph {
   line-height: 1.6em;
   font-size: 70px;
@@ -56,5 +69,4 @@ a:hover {
   text-align: center;
   padding: 0 60px;
 }
-
 /*# sourceMappingURL=vhard.css.map */

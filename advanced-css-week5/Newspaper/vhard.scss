@@ -6,6 +6,7 @@
 
 }
 
+
 .column__header--picture {
     margin-left: auto;
     margin-right: auto;
@@ -36,7 +37,13 @@
     border-top: black 15px solid;
     padding: 90px;
 }
+a::before {
+    content: "♥";
+  }
 
+  a::after {
+    content: "";
+  }
 a {
     text-decoration: none;
     color: blue;
