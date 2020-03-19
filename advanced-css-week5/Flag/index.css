@@ -1,0 +1,58 @@
+.image-container {
+    position: relative;
+}
+
+#stars  {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    z-index: 2;
+
+}
+
+#flag {
+    width: 800px;
+    height: 400px;
+    background-color:white;
+    border: 10px solid;
+    border-radius: 10px;
+    position: relative;
+  }
+.stripes {
+    width: 100%;
+    height: 200px; 
+      
+}
+
+/* #stars .stripes {
+      
+  } */
+
+  .rectangle {
+    width: 80%;
+    height: 30px;
+    float: right;
+    
+  }
+  .stripe--white{
+    background-color: white;
+    width: 100%
+  }
+  .stripe--red {
+    background-color: red;
+    width: 100%
+  }
+
+  .short-stripe .stripe--white_short {
+      margin-left: 300px;
+      background-color: white;
+      
+  }
+
+  .short-stripe .stripe--red_short {
+      width: 70%;
+      background-color: red;
+  }
+.flag_image-container{
+    margin-bottom: -203px;
+}

@@ -1,0 +1,67 @@
+
+.date {
+    float: right;
+    margin-right: 140px;
+    font-size: 60px;
+
+}
+
+.column__header--picture {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.wrapper__header {
+    font-size: 300px;
+    font-weight: bold;
+    text-align:center;
+    
+}
+
+.column__header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 200px;
+    border-top: black 15px solid;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.column__header--paragraph {
+    font-size: 70px;
+    text-align: center;
+    border-top: black 15px solid;
+    padding: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    color:red;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    &__header {
+        font-size: 100px;
+        text-align: center;
+    
+    }
+
+    &__paragraph {
+        line-height: 1.6em;
+        font-size: 70px;
+        border-left: black 5px solid;
+        text-align: center;
+        padding: 0 60px;
+    }
+
+}
+
