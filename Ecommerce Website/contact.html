@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="home.html">
+                    <h1 class="logo">Kelly's</h1><img id="logo-image"
+                        src="https://cdn.icon-icons.com/icons2/1362/PNG/512/artboard-10_89054.png"
+                        alt="gray cartoon cat">
+                    <h2 class="logo">Ragdolls</h2>
+                </a>
+
+            </div>
+            <div class="container">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact">
+
+        <h1 class="contact-header">Contact Us:</h1>
+        <p class=contact-header_paragraph><br><br>Kelly Ornellas<br><br>
+            704-516-6709</p>
+            <p class="contact-header_paragraph2"> <br><br>
+                kellya.ornellas@gmail.com</p>
+
+        <h2 class="contact-header_two">Or use our contact form below:</h2>
+
+
+    </section>
+
+    
+    <main class="fcontainer">
+
+        <div class="contact-cat">
+            <img src="img/contact-cat.jpeg" alt="white ragdoll kitten">
+        </div>
+
+        <form class="fcontainer-form" id="usrform">
+
+            <label for="FirstName">First Name</label>
+            <input type="text" id="FirstName" class="form-control" placeholder="First Name" required>
+
+            <label for="LastName">Last Name</label>
+            <input type="text" id="LastName" class="form-control" placeholder="Last Name" required>
+
+            <label for="PhoneNumber">Phone Number</label>
+            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="PhoneNumber" class="form-control"
+                placeholder="Phone Number" required>
+
+            <label for="Email">Email</label>
+            <input type="email" id="Email" class="form-control" placeholder="Email Address" required>
+
+            <label for="Message">Leave a Comment</label>
+            <textarea id="Message" class="form-control" placeholder="Leave a comment!"></textarea>
+
+            <button  class="form-button" id="submitButton" type="submit">Submit</button>
+
+        </form>
+
+        <div class="contact-cat2">
+            <img src="img/contact-cat2.jpg" alt="white ragdoll cat on pillow">
+        </div>
+
+    </main>
+
+<!-- footer -->
+    <footer class="footer">
+
+        <!-- logo  -->
+
+        <div id="logo-copyright">
+
+            <img class="footer-logo" src="https://cdn.icon-icons.com/icons2/1362/PNG/512/artboard-10_89054.png"
+                alt="gray cartoon cat">
+
+            <p> &copy; Kelly's Ragdolls 2020</p>
+        </div>
+
+        <!--  instagram icon link -->
+        <div id="icon">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener">
+                <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/38-instagram-512.png"
+                    alt="instagram logo"></a>
+
+            <!-- facebook icon link -->
+
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_square_black-512.png"
+                    alt="facebook logo"></a>
+
+            <a href="https://www.twitter.com" target="_blank" rel="noopener">
+                <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_square_black-256.png"
+                    alt="twitter icon"></a>
+
+        </div>
+    </footer>
+
+
+    <script type="text/javasccript" src="style.js"></script>
+</body>
+
+</html>

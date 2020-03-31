@@ -1,0 +1,71 @@
+// Home page
+
+#slider {
+    width: 50%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+    margin-top:200px;
+}
+
+#slider-container {
+    display: flex;
+    width: 100%;
+    height: 500px;
+   
+}
+
+.main {
+    font-size: 6em;
+}
+.main-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.main-title_header {
+    padding-top: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $color2;
+}
+
+.info {
+  background-color: $color1;
+  border-radius: 60px;
+  border: dotted;
+  margin: auto 30px;
+  margin-bottom: 400px;
+}
+
+.info-paragraph {
+color: $color4;
+line-height: 1.5em;
+text-align: center;
+padding: 50px 70px;
+
+}
+.coat-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $color2;
+    font-size: 8em;
+    text-align: center;
+    margin: 180px 0;
+    
+}
+
+.coat-color {
+    background-color: $color1;
+    border: dotted;
+    margin: 60px 90px;
+}
+
+.coats {
+    font-weight: bold;
+}
+
+.coat-paragraph {
+    margin: 100px 90px;
+    font-size: 4em;
+    text-align: center;
+}

@@ -1,0 +1,128 @@
+
+
+.contact {
+    margin: 70px;
+}
+
+.contact-header {
+    font-size: 80px;
+    font-weight: bold;
+    color: $color4;
+    display:flex;
+    justify-content: center;
+
+}
+
+.contact-header_paragraph {
+    font-size: 65px;
+    color: $color3;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-header_paragraph2 {
+    font-size: 65px;
+    color: $color3;
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+.contact-header_two {
+    font-size: 80px;
+    font-weight:bold;
+    color: $color4;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-cat {
+    position: relative;
+    margin-right: 550px;
+    padding-left: 90px;
+
+}
+
+.contact-cat2 {
+    position: relative;
+    margin-left: 550px;
+    padding-right: 90px;
+}
+
+
+.fcontainer {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+    height: 100em;
+    justify-content: flex-start;
+  }
+
+  .fcontainer label {
+      font-size: 65px;
+  }
+
+  .fcontainer-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 100px 100px 100px;
+  justify-content: center;
+  border-radius: 90px;
+  width: 90em;
+  background: $color1;
+  border: dotted;
+    }
+
+  .form-control {
+    position: relative;
+    height: auto;
+    padding: 20px 15px;
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+  }
+
+  #FirstName {
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+  
+  #LastName {
+    margin-bottom: 15px;
+  }
+  
+  #PhoneNumber {
+    margin-bottom: 15px;
+  }
+  
+  #Email {
+    margin-bottom: 25px;
+  }
+  
+  #Message {
+    margin-bottom: 35px;
+    resize: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+  }
+  
+  .form-button {
+    width: 100%;
+    margin: 0 auto;
+    color: $color1;
+    font-size: 14px;
+    padding: 28px 40px 25px;
+    text-align: center;
+    border-radius: 900px;
+    text-transform: uppercase;
+    background-color: $color4;
+    border: 1px solid black;
+  }
+  
+  .form-button:hover {
+    color: $color2;
+  }

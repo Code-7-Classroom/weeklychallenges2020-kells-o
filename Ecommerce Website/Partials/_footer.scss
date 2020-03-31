@@ -1,0 +1,33 @@
+$color1: #dfcdc3;
+$color2: #719192;
+$color3: #5f6769;
+$color4: #3c4245;
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background: $color2;
+  }
+  #logo-copyright {
+    display:flex;
+    align-items: center;
+    margin-right: 3000px;
+  }
+  .footer-logo {
+    height: 70px;
+  }
+
+  .icon {
+      display: flex;
+      justify-content: space-evenly;
+      margin-left: 200px;
+  }
+
+  #icon img {
+    width: 80px;
+  }
+  
