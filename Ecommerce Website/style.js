@@ -11,7 +11,7 @@ const nextBtn = document.querySelector('#nextBtn');
 //counter
 
 let counter = 1;
-const size = sliderImages[0].clientWidth;
+const size = sliderImages[0].clientWidth; //finding inner width of element
 
 sliderContainer.style.transform = 'translateX(' + ( -size * counter ) + 'px)';
 
@@ -44,14 +44,13 @@ if (sliderImages[counter].id === 'firstClone') {
 });
 
 
-var list = document.querySelector("dropdown");
 
-function filterByType(price){
-    var option = document.querySelectorAll(".dropdown-options");
-    for(i = 0; 1< option.length; i++) {
-        var el = option[1];
-        
-    }
-}
+
+
+
+
+
+
+
 
 

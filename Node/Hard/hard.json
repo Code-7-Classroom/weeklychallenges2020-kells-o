@@ -1,0 +1,39 @@
+{
+    "employees":[
+    {
+        
+        "id": 1,
+        "name": "Zack",
+        "salary": 100000,
+        "job": "Back End Developer"
+    },
+    {
+        
+        "id":2,
+        "name": "Cody",
+        "salary": 150000,
+        "job":"CEO"
+    },
+    {
+        
+        "id":3,
+        "name":"Will",
+        "salary": 45000,
+        "job": "Front End Developer"
+
+    },
+    {
+        "id":4,
+        "name": "Sara",
+        "salary": 50000,
+        "job": "Full Stack Developer"
+    },
+    {
+        "id":5,
+        "name": "Bob",
+        "salary": 50000,
+        "job": ""
+    }
+
+
+]

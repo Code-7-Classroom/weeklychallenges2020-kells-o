@@ -4,7 +4,7 @@ var input= prompt(' What number month were you born? ')
 
 
 function getMonth(number) {
-var minusOne= number -1
+var minusOne = number -1
 
 if (number > 12 || number < 1) {
     return alert(' Please enter a number 1-12 ')

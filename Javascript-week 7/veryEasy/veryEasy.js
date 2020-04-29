@@ -12,3 +12,5 @@ function min(argue1, argue2) {
     }
 }
 console.log(min(4,7))
+
+// var  minimum = min(4,7)
